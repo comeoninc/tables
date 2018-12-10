@@ -41,14 +41,14 @@ Once you have the tables module installed, you can include it in your CSS/LESS/S
 
 #### CSS Import:
   ```css
-  import url("https://cdn.rawgit.com/getbase/tables/master/css/index.css");
+  import url("https://unpkg.com/@getbase/tables/index.css");
   ```
 
 #### SCSS Import:
 
   ```scss
   /* Import Base Tables */
-  @import "node_modules/@getbase/tables/scss/index";
+  @import "~@getbase/tables/scss/index";
   /* Your Other Styles */
   @import "main"
   ```
@@ -56,9 +56,9 @@ Once you have the tables module installed, you can include it in your CSS/LESS/S
 
 #### LESS Import:
 
-  ```css
+  ```less
   /* Import Base Tables */
-  @import "node_modules/@getbase/tables/scss/index";
+  @import "~@getbase/tables/less/index";
   /* Your Other Styles */
   @import "main"
   ```
@@ -73,7 +73,7 @@ Base Tables includes styles for tables. Currently there is only 1 style applied 
 
 ## Demo
 
-[View page example](https://cdn.rawgit.com/getbase/tables/master/index.html) with the tables stylesheet applied.
+[View page example](https://unpkg.com/@getbase/tables/index.html) with the tables stylesheet applied.
 
 * * *
 
